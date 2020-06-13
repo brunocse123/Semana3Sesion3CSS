@@ -1,0 +1,122 @@
+/*************************/
+/*Selectores simples*/
+/*************************/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  color: blue;
+}
+
+.otro-h2 {
+  color: red;
+}
+
+#h2 {
+  color: green;
+}
+/*************************/
+/*Selectotrs de atirbutos*/
+/*************************/
+
+input[disabled] {
+  background: mediumslateblue;
+}
+
+a[href="https://www.google.com/"]
+{
+  color: pink;
+}
+
+a[href="https://www.youtube.com/"]
+{
+  color: red;
+}
+
+a[href="https://www.facebook.com/"]
+{
+  color: blue;
+}
+
+input[type="text"] {
+  padding: 10px;
+}
+
+input {
+  padding: 30px;
+}
+/*************************/
+/*Selectores de Pseudoclase*/
+/*************************/
+
+a:hover {
+  background: cyan;
+}
+
+input:focus {
+  background: grey;
+}
+
+input:focus:valid {
+  background: green;
+}
+
+input:focus:invalid {
+  background: red;
+}
+
+/*
+ul li:first-child{
+    background: blue;
+}
+*/
+
+ul li:last-child {
+  background: orange;
+}
+
+/*Pintar algun elemento*/
+/*
+ul li:nth-child(2){
+    background: blue;
+}
+*/
+/*
+ul li:nth-child(even){
+    background: violet;
+}
+*/
+
+/*************************/
+/***   Pseudo Elemento*/
+/*************************/
+p::first-letter {
+  font-size: 34px;
+}
+
+/*Convierto la primera linea*/
+p::first-line {
+  font-size: 34px;
+}
+
+/*Se coloca al final del parrafo*/
+p::after {
+  content: "Soy After";
+}
+
+p::before {
+  content: "Agregar Contenido antes del parrafo";
+  background: red;
+  display: block;
+}
+
+/*Selector Combinaciones*/
+
+header a {
+  color: red;
+}
+
+main a {
+  color: blue;
+}

@@ -1,0 +1,106 @@
+
+/**/
+body{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    width: 366px;
+}
+.panelTitulo {
+    position: absolute;
+    height: 154px;
+    background: red;
+    align-items: center;
+    top: 71px;
+    left: 200px;
+    width: 666px;
+  }
+  
+  .panelTitulo h1 {
+    color: white;
+    text-align: center;    
+    font-size: 42px;
+    line-height: 49px;
+  }
+  
+  .panelSubtitulo1 {
+    width: 666px;
+    position: absolute;
+    top: 225px;
+    height: 320px;
+    background: blue;
+    align-items: center;
+
+    left: 200px;
+
+  }
+
+  .panelSubtitulo1 p {
+    color: white;
+  }
+
+  .panelSubtitulo1 h2 {
+    color: #EBFF00;
+  }
+
+  .panelSubtitulo1 a:hover{
+      color: black;
+  }
+
+  .panelImagenesSub1 img
+  {
+      margin: 5px;
+  }
+
+/*Bloque Subtitulo 2*/
+  
+  .panelSubtitulo2 {
+    position: absolute;
+    top: 546px;
+    width: 666px;
+    height: 320px;
+    background:#FF9900;
+    align-items: center;
+    left: 200px;
+  }
+
+  .panelSubtitulo2 p {
+    color: white;
+  }
+
+  .panelSubtitulo2 h2 {
+    color: #FF00A8;
+  }
+
+  .panelImagenesSub2 img
+  {
+      margin: 5px;
+  }
+
+  .panelImagenesSub2 img:hover{
+      background: green;
+  }
+  
+
+  /*Bloque Creado Por*/
+  
+  .panelCreadoPor {
+    position: absolute;
+    top: 866px;
+    height: 154px;
+    background: #FF0000;
+    height: 80px;
+    align-items: center;
+    left: 200px;
+    width: 666px;
+  }
+
+  .panelCreadoPor h3{
+      text-align: center;
+      color: white;
+  }
+  
+
+  .paddingGlobal{
+      padding: 10px;
+  }
